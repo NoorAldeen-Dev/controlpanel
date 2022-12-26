@@ -13,11 +13,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
     "css-loader": "^6.7.3",
     "html-loader": "^4.2.0",
+    "html-webpack-partials-plugin": "^0.8.0",
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.2",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "parcel": "^2.8.2",
     "postcss": "^8.4.20",
     "postcss-loader": "^7.0.2",
     "postcss-preset-env": "^7.8.3",
@@ -28,6 +33,8 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@cubejs-client/core": "^0.31.30",
+    "chart.js": "^4.1.1",
     "normalize.css": "^8.0.1"
   }
 }
